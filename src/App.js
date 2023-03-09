@@ -22,7 +22,6 @@ function App() {
         <Route path='/experience' exact component={Experience}/>
         <Route path='/skills' exact component={Skills}/>
         <Route path='/resume' exact component={EmbedResume}/>
-
       </Switch>
       <Footer/>
     </Router>
