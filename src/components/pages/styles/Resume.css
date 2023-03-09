@@ -1,0 +1,67 @@
+.bodydiv1{
+    background-image: url('../../../images/nordwood.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.main__buttons {
+    padding:20px;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main__buttons_button1{
+    margin-top: 20px;
+    border: solid orange;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color: peru;
+    margin-right:20px;
+}
+
+.main__buttons_button2{
+    margin-top:20px;
+    border: solid orange;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color: peru;
+    margin-left: 20px;
+}
+
+.main__buttons_button1:hover {
+    background-color: gold;
+    cursor:pointer;
+}
+.main__buttons_button2:hover {
+    background-color: gold;
+    cursor: pointer;
+}
+
+
