@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.47052c17.css",
-    "main.js": "/static/js/main.92cada4f.js",
-    "static/media/nordwood.jpg": "/static/media/nordwood.ed0ba931ea0fe6c9d99d.jpg",
-    "static/media/desk.jpg": "/static/media/desk.9fe49dd7ebec552427b4.jpg",
-    "index.html": "/index.html",
-    "main.47052c17.css.map": "/static/css/main.47052c17.css.map",
-    "main.92cada4f.js.map": "/static/js/main.92cada4f.js.map"
+    "main.css": "/myportfolio/static/css/main.2f1bc3d7.css",
+    "main.js": "/myportfolio/static/js/main.92cada4f.js",
+    "static/media/nordwood.jpg": "/myportfolio/static/media/nordwood.ed0ba931ea0fe6c9d99d.jpg",
+    "static/media/desk.jpg": "/myportfolio/static/media/desk.9fe49dd7ebec552427b4.jpg",
+    "index.html": "/myportfolio/index.html",
+    "main.2f1bc3d7.css.map": "/myportfolio/static/css/main.2f1bc3d7.css.map",
+    "main.92cada4f.js.map": "/myportfolio/static/js/main.92cada4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.47052c17.css",
+    "static/css/main.2f1bc3d7.css",
     "static/js/main.92cada4f.js"
   ]
 }
