@@ -11,7 +11,7 @@ function Resume() {
                     <h2>You can download or open here</h2>
                 </div>
                 <div className='main__buttons'>
-                    <div className='main__buttons_button1'><a href="files/resume.pdf" download>DOWNLOAD</a></div>
+                    <div className='main__buttons_button1'><a href="files/resume2.pdf" download>DOWNLOAD</a></div>
                     <div className='main__buttons_button2'><Link to='/embedresume'>OPEN</Link></div>
                 </div>
             </div>

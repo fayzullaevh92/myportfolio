@@ -18,10 +18,10 @@ function App() {
     <Router>
       <Navbar/>
       <Switch>
-        <Route path='/' exact component={AboutMe}/>
         <Route path='/experience' exact component={Experience}/>
         <Route path='/skills' exact component={Skills}/>
         <Route path='/resume' exact component={EmbedResume}/>
+        <Route path='/' component={AboutMe}/>
       </Switch>
       <Footer/>
     </Router>

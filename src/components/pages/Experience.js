@@ -9,6 +9,58 @@ function Experience() {
         <h1>Experience in Various Projects (2015 - Present)</h1>
       </header>
       <div className="container">
+      <div className="container__card">
+          <div className="container__card__title">
+            <div className="card__project">
+              <h2>U.S.Bank, Minneapolis, MN</h2>
+              <h2>U.S.Bank Online Banking</h2>
+            </div>
+            <div className="card__logo">
+                <img src={process.env.PUBLIC_URL + "/images/usbanklogo3.png"} alt="logo"/>
+            </div>
+            <div className="card__time">
+              <h2>Aug 2021 to Present</h2>
+            </div>
+          </div>
+          <div className="container__card__responsibility">
+            <ul>
+              <li>
+                Created efficiently designed web pages using React, HTML5, SCSS and JavaScript ES6.
+              </li>
+              <li>
+                Built micro apps from scratch with Webpack and Gitlab Repo.
+              </li>
+              <li>
+                Used SCSS for styling components and media queries to make them responsive.
+              </li>
+              <li>
+                Applied React hooks such as useState, useEffect and useRef to better prevent redundant page renderings.
+              </li>
+              <li>
+                Created Redux store, reducers and actions to make data accessible on all components.
+              </li>
+              <li>
+                Tested components and utility functions using Jest, Enzyme and React Testing library.
+              </li>
+              <li>
+                Used Promises to make API calls and handle JSON data extracting the necessary properties and values.
+              </li>
+              <li>
+                Pushed, merged branches after reviewing them and getting approvals through GitLab.
+              </li>
+              <li>Deployed to dev, testing and production environments using Jenkins.</li>
+              <li>
+                Participated in SCRUM daily stand up meetings to report on progress using Microsoft Teams.
+              </li>
+            </ul>
+          </div>
+          <div className="container__card__environment">
+            <p>
+              <b id="environment">Environment:</b>&nbsp;
+              HTML5, DOM Manipulation, CSS3, SCSS, JavaScript, ES6, ReactJS, Webpack, Redux, SpringBoot, Restful Services, Postman, CRUD operations, Agile, SCRUM, Confluence,  Jira, Git, GitLab, JSON, Jenkins, VS Code, AEM, Figma, Envision, A11Y, Chrome Developer Tools.
+            </p>
+          </div>
+        </div>
         <div className="container__card">
           <div className="container__card__title">
             <div className="card__project">
@@ -16,10 +68,10 @@ function Experience() {
               <h2>Relativityone</h2>
             </div>
             <div className="card__logo">
-                <img src="./images/RelativityOne.png" alt="logo"/>
+                <img src={process.env.PUBLIC_URL + "/images/RelativityOne.png"} alt="logo"/>
             </div>
             <div className="card__time">
-              <h2>Feb 2020 to Present</h2>
+              <h2>Feb 2020 to Aug 2021</h2>
             </div>
           </div>
           <div className="container__card__responsibility">
@@ -79,7 +131,7 @@ function Experience() {
               <h2>Blue Business Intelligence</h2>
             </div>
             <div className="card__logo">
-                <img src="./images/bluesoftware.png" alt="logo"/>
+                <img src={process.env.PUBLIC_URL + "/images/bluesoftware.png"} alt="logo"/>
             </div>
             <div className="card__time">
               <h2>Apr 2018 to Dec 2019</h2>
@@ -135,7 +187,7 @@ the SPA.
               <h2>Sertifi eSignatures.</h2>
             </div>
             <div className="card__logo">
-                <img src="./images/sertifi.png" alt="logo"/>
+                <img src={process.env.PUBLIC_URL + "/images/sertifi.png"} alt="logo"/>
             </div>
             <div className="card__time">
               <h2>Mar 2017 to Feb 2018</h2>
@@ -188,7 +240,7 @@ the SPA.
               <h2>Credit Risk Evaluation</h2>
             </div>
             <div className="card__logo">
-                <img src="./images/bmo.png" alt="logo"/>
+                <img src={process.env.PUBLIC_URL + "/images/bmo.png"} alt="logo"/>
             </div>
             <div className="card__time">
               <h2>Dec 2016 - Mar 2017</h2>
@@ -234,8 +286,8 @@ the SPA.
             </p>
           </div>
         </div>
-      </div>
-      <div className='container2'>
+      {/* </div> */}
+      {/* <div className='container2'> */}
         <div className="container__card">
           <div className="container__card__title">
             <div className="card__project">
@@ -285,6 +337,7 @@ the SPA.
             </p>
           </div>
         </div>
+      {/* </div> */}
       </div>
     </div>
   );
